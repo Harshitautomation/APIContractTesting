@@ -1,6 +1,5 @@
 const path = require('path');
 const { Pact } = require('@pact-foundation/pact');
-const fetch = require('node-fetch');
 const { describe, beforeAll, afterAll, test, expect } = require('@jest/globals');
 
 // Initialize Pact
